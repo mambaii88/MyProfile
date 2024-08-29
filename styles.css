@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar untuk body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #242b32;
+}
+
+/* Gaya untuk header */
+header {
+    background: #ff7474;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Gaya untuk main section */
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    max-width: 900px;
+    background: #242b32;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #242b32(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-photo {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex: 2;
+    padding: 1rem;
+}
+
+.profile-info h2 {
+    margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk footer */
+footer {
+    background: #ff7474;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
